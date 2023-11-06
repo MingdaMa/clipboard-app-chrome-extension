@@ -1,0 +1,12 @@
+{
+    "name": "Clipboard Extensions",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab"],
+    "host_permissions": ["https://clipboard-app-backend-16c2583d149e.herokuapp.com/"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Clipboard"
+    }
+}
